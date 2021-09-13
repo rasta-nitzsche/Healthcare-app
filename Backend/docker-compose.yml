@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+
+  mongo:
+    image: mongo:latest
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+    volumes:
+      - .data:/data/db
+
+  web:
+    build: .
+    ports:
+      - '25413:80'
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+    depends_on:
+      mongo:
+        condition: service_started
