@@ -1,0 +1,77 @@
+.navbar {
+  background-image: linear-gradient(to right, #2ba9ac, #83d4be);
+}
+
+#menu-list li {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #767676;
+  background-color: transparent;
+}
+
+#menu-list {
+  list-style-type: none;
+  width: 100%;
+}
+
+#menu-list ul {
+  width: 100%;
+}
+
+#menu-list i {
+  margin-right: 5px;
+  color: #767676;
+}
+
+#menu-list button {
+  background-color: transparent;
+  width: 100%;
+  border: none;
+}
+
+#active {
+  background-color: #2ba9ac !important;
+  color: #ffffff !important;
+}
+
+#hm {
+  color: #ffffff !important;
+}
+
+#welcome {
+  background-color: #2ba9ac;
+  height: 100%;
+  border-radius: 15px;
+  color: #ffffff;
+  margin-left: 10%;
+  margin-top: 4%;
+}
+
+#stats {
+  margin-left: 5%;
+}
+
+#bord1 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-radius: 15px;
+  background-color: #ffffff;
+  height: 100%;
+  color: #077d71;
+  margin-left: 25%;
+  margin-top: 5%;
+  width: 85%;
+}
+
+#md {
+  margin-top: 5%;
+  margin-left: 5%;
+  font-weight: 700;
+}
+
+#hadra {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 120%;
+}

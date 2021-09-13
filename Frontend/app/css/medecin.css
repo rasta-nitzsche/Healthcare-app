@@ -1,0 +1,141 @@
+.navbar {
+  background-image: linear-gradient(to right, #2ba9ac, #83d4be);
+}
+
+#menu-list li {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #767676;
+  background-color: transparent;
+}
+
+#menu-list {
+  list-style-type: none;
+  width: 100%;
+}
+
+#menu-list ul {
+  width: 100%;
+}
+
+#menu-list i {
+  margin-right: 5px;
+  color: #767676;
+}
+
+#menu-list button {
+  background-color: transparent;
+  width: 100%;
+  border: none;
+}
+
+#active {
+  background-color: #2ba9ac !important;
+  color: #ffffff !important;
+}
+
+#hm {
+  color: #ffffff !important;
+}
+
+#welcome {
+  background-color: #2ba9ac;
+  height: 100%;
+  border-radius: 15px;
+  color: #ffffff;
+  margin-left: 10%;
+}
+
+#stats {
+  margin-left: 5%;
+  margin-top: 1%;
+}
+
+#bord1 {
+  border-style: solid;
+  border-color: #f05037;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+#bord2 {
+  border-style: solid;
+  border-color: #2ba9ac;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+#event1 {
+  background-color: #ffb56c;
+  border-radius: 15px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  width: 81%;
+  height: 65px;
+  margin-bottom: 20px;
+  margin-top: 10%;
+}
+
+#event2 {
+  background-color: #eb5454;
+  border-radius: 15px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  width: 81%;
+  height: 65px;
+  margin-bottom: 20px;
+}
+
+#event3 {
+  background-color: #7ed2bc;
+  border-radius: 15px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  width: 81%;
+  height: 65px;
+  margin-bottom: 20px;
+}
+
+.fpat {
+  color: #2ba9ac;
+  background-color: white;
+  height: 75px;
+  align-items: center;
+  /* margin-left: 10%; */
+  margin-top: 5%;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.fpat:hover {
+  color: white;
+  background-color: #2ba9ac;
+}
+
+#infod {
+  margin-left: 20%;
+  background-color: white;
+}
+
+.no-link {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+.no-link:hover {
+  color: inherit;
+}
+
+input[type="checkbox"][readonly] {
+  pointer-events: none;
+}
+
+.no-pointer {
+  pointer-events: none;
+}

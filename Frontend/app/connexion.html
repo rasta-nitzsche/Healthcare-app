@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Application volet 2</title>
+    <link rel="stylesheet" href="css/acceuil.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="/img/favicon.png" type="image/png" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="keywords" content=" " />
+    <meta name="description" content=" " />
+    <meta name="author" content="Boulaouad Adel" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href=" " target="_blank" />
+  </head>
+
+  <body>
+    <section id="navbarconnexion">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <img src="img/Logo2.png" width="4%" height="4%" />
+          <h3 style="margin-top: 0.5%; color: #077d71; font-size: 120%; margin-left: 0.5%; font-weight: 700">
+            NebraFdari
+          </h3>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarnav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" target="_self" href="acceuil.html" id="navcontent">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html" target="_self" id="navcontent">Nos services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" target="_self" id="navcontentactive">Connexion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html#bas" target="_self" id="navcontent">À propos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-----------------------------Corpus--------------------------------------------------------------------->
+
+    <section>
+      <div class="row">
+        <div class="col-lg-6 col-md-8 col-sm-10 col-xs-10">
+          <img src="img/medecin.PNG" style="margin-top: 15%; margin-left: 10%" />
+        </div>
+
+        <!-- <div class="alert alert-danger show fade in">
+          <a href="#" class="close" data-dismiss="alert">&times;</a>
+          message
+        </div> -->
+
+        <div class="col-lg-6 col-md-8 col-sm-10 col-xs-10">
+          <div class="container" id="auth">
+            <h3 id="title">Identification</h3>
+            <form id="authForm" style="margin-top: 10%">
+              <div class="form-group">
+                <i class="fa fa-envelope icon" id="icon"></i>
+                <input type="text" id="mail" class="form-control" />
+              </div>
+
+              <div class="form-group">
+                <i class="fas fa-unlock-alt" id="icon"></i>
+                <input type="password" id="password" class="form-control" />
+              </div>
+
+              <button type="submit" class="btn btn-default" id="btn">Connexion</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/shared/global.js"></script>
+    <script src="js/modules/auth.js"></script>
+  </body>
+</html>

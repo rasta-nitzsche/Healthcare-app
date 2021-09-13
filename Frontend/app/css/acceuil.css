@@ -1,0 +1,97 @@
+#navbarnav {
+  margin-left: 50%;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #ffffff, #ffffff);
+}
+
+#navcontent {
+  color: #767676;
+  font-size: 120%;
+  font-weight: 600;
+}
+
+#navcontentactive {
+  color: #077d71;
+  font-size: 120%;
+  font-weight: 600;
+  text-decoration: underline 3px;
+}
+
+#corpus {
+  background-image: url(../img/background.png);
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+#service {
+  background-color: #077d71;
+  margin: 4%;
+  margin-top: 5%;
+  color: #ffffff;
+  border-radius: 15px;
+}
+
+#bas {
+  background-image: url(../img/bas.png);
+  background-size: cover;
+  color: #ffffff;
+  margin-top: 10%;
+  width: 100%;
+  height: 400px;
+}
+
+#btn {
+  background-color: #077d71;
+  color: #ffffff;
+  margin-left: 25%;
+  margin-top: 15%;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 25%;
+  width: 50%;
+}
+
+#auth {
+  background-color: rgb(230, 230, 230);
+  margin-top: 10%;
+  border-radius: 25px;
+  width: 60%;
+}
+
+.form-group {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 10%;
+}
+
+#title {
+  color: #077d71;
+  margin-left: 25%;
+  padding-top: 8%;
+  font-weight: 700;
+  padding-bottom: 8%;
+}
+
+#mail {
+  height: 50px;
+  padding-left: 15%;
+}
+
+#password {
+  height: 50px;
+  padding-left: 15%;
+}
+
+#icon {
+  color: #767676;
+  position: absolute;
+  margin-top: 1.25%;
+  margin-left: 1%;
+}

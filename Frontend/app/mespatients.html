@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Application volet 2</title>
+    <link rel="stylesheet" href="css/medecin.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="/img/favicon.png" type="image/png" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="keywords" content=" " />
+    <meta name="description" content=" " />
+    <meta name="author" content="Boulaouad Adel" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <section id="nav-bar">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <div class="col-lg-1 col-md-1 col-sm-1">
+              <img src="img/logo1.png" height="60px" width="60px" />
+            </div>
+
+            <div class="col-lg-5 col-md-5 col-sm-5">
+              <form class="d-flex" style="padding-left: 30%">
+                <input class="form-control me-2" type="search" placeholder="Consultation..." aria-label="Search" />
+                <button class="btn btn-outline-success" type="submit">Rechercher</button>
+              </form>
+            </div>
+
+            <div class="col-lg-5 col-md-5 col-sm-5">
+              <div class="container" id="navbarNav" style="margin-left: 20px">
+                <ul class="navbar-nav">
+                  <li class="nav-item ms-auto">
+                    <img src="img/user1.png" height="60px" width="60px" />
+                  </li>
+                  <li class="nav-item mt-3">
+                    <p style="font-weight: 600; margin-left: 10px">Médecin</p>
+                  </li>
+                  <li class="nav-item mt-2">
+                    <button id="logout" class="btn" style="margin-left: 20px">
+                      <i class="fas fa-sign-out-alt"></i> Se déconnecter
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <!-----------------------------Corpus--------------------------------------------------------------------->
+    <section>
+      <div class="row" style="position: absolute; top: 76px; bottom: 0px; right: 0px; left: 0px">
+        <div class="col-lg-2 col-md-2 col-sm-2" style="padding-top: 40px">
+          <ul class="list-group list-group-flush" id="menu-list">
+            <button>
+              <li class="list-group-item list-group-item-action">
+                <a href="/medecin.html" target="_self" style="text-decoration: none; color: #767676">
+                  <i class="fas fa-home"></i> Vue générale
+                </a>
+              </li>
+            </button>
+            <button>
+              <li class="list-group-item list-group-item-action"><i class="fas fa-calendar-alt"></i> Planning</li>
+            </button>
+            <button>
+              <li class="list-group-item list-group-item-action-active" id="active">
+                <a href="/mespatients.html" target="_self" style="text-decoration: none; color: white"
+                  ><i id="hm" class="fas fa-user"></i> Mes patients</a
+                >
+              </li>
+            </button>
+            <button>
+              <li class="list-group-item list-group-item-action"><i class="fas fa-cog"></i> Paramètres</li>
+            </button>
+          </ul>
+        </div>
+        <div class="col-lg-10 col-md-10 col-sm-10" style="background-color: #e2ebe6">
+          <div id="patients" class="row d-flex justify-content-around" style="margin-top: 5%">
+            <!-- <a href="#" class="col-lg-4 col-md-6 col-sm-10 no-link">
+              <div class="fpat">
+                <h4><i class="fas fa-user m-2"></i> Boulaouad Adel</h4>
+              </div>
+            </a> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/shared/global.js"></script>
+    <script src="js/modules/mespatients.js"></script>
+  </body>
+</html>
