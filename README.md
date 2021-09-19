@@ -12,9 +12,9 @@ Can see his planned meeting with his doctor.
 
 ## Doctor 
 
-Can check his planning and his consultations
+Can check his planning and his consultations.
 
-Can have a look on form filled by the patient and ask him more questions if necessary
+Can have a look on the form filled by the patient and ask him more questions if necessary.
 
 ## Software stack
 
