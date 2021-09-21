@@ -14,7 +14,7 @@ Can see his planned meeting with his doctor.
 
 Can check his planning and his consultations.
 
-Can have a look on the form filled by the patient and ask him more questions if necessary.
+Can have a look on the daily form filled by the patient and ask him more questions if necessary.
 
 ## Software stack
 
